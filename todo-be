@@ -1,0 +1,12 @@
+server {
+        listen 80;
+        server_name 35.230.57.138;
+        location = /favicon.ico { access_log off; log_not_found off; }
+#        location /static/ {
+#            root /home/username/DjangoProject;
+#        }
+        location / {
+            include proxy_params;
+            proxy_pass http://unix:/var/www/Todo_app/backend/todo_app/todo_app.sock;
+        }
+    }
