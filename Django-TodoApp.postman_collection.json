@@ -71,7 +71,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"name\": \"Prepare meeting notes\"\n}",
+							"raw": "{\n    \"name\": \"create to do app\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
