@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "a6f2b286-ec7a-40e0-aacb-86ae0b73386a",
+		"_postman_id": "796b7626-6739-4dce-bf4e-5155cc7aac42",
 		"name": "Django-TodoApp",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -17,15 +17,17 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "localhost:8000/api/todos/1/",
+							"raw": "http://35.230.57.138/api/todos/",
+							"protocol": "http",
 							"host": [
-								"localhost"
+								"35",
+								"230",
+								"57",
+								"138"
 							],
-							"port": "8000",
 							"path": [
 								"api",
 								"todos",
-								"1",
 								""
 							]
 						}
@@ -41,14 +43,18 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "localhost:8000/api/todos/",
+							"raw": "http://35.230.57.138/api/todos/5/",
+							"protocol": "http",
 							"host": [
-								"localhost"
+								"35",
+								"230",
+								"57",
+								"138"
 							],
-							"port": "8000",
 							"path": [
 								"api",
 								"todos",
+								"5",
 								""
 							]
 						}
@@ -73,11 +79,14 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:8000/api/todos/",
+							"raw": "http://35.230.57.138/api/todos/",
+							"protocol": "http",
 							"host": [
-								"localhost"
+								"35",
+								"230",
+								"57",
+								"138"
 							],
-							"port": "8000",
 							"path": [
 								"api",
 								"todos",
@@ -105,15 +114,18 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:8000/api/todos/1/",
+							"raw": "http://35.230.57.138/api/todos/6/",
+							"protocol": "http",
 							"host": [
-								"localhost"
+								"35",
+								"230",
+								"57",
+								"138"
 							],
-							"port": "8000",
 							"path": [
 								"api",
 								"todos",
-								"1",
+								"6",
 								""
 							]
 						}
@@ -129,11 +141,14 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "localhost:8000/api/todos/1/",
+							"raw": "http://35.230.57.138/api/todos/1/",
+							"protocol": "http",
 							"host": [
-								"localhost"
+								"35",
+								"230",
+								"57",
+								"138"
 							],
-							"port": "8000",
 							"path": [
 								"api",
 								"todos",
